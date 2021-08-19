@@ -1,0 +1,6 @@
+fh = open("hi.txt", "w")
+fh.write("Hi, Koshevoy!\n")
+fh.close()
+fh = open("hi.txt", "r")
+print(fh.read())
+fh.close()
